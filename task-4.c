@@ -9,7 +9,7 @@ int main(){
     printf("\n\nEnter degree Celsius number:- %d",a);
     scanf("%d",&a);
 
-    f=9.5*a+32;
+    f=(1.8*a)+32;
 
     printf("\nFahrenheit:- %d\n\n",f);
 

@@ -5,7 +5,7 @@ int main(){
 
     //Write C Program to perform a swapping of two variables.
 
-    int a,b;
+    int a,b,c;
 
     printf("\n\nEnter number a:- ");
     scanf("%d",&a);
@@ -13,8 +13,12 @@ int main(){
     printf("Enter number b:- ");
     scanf("%d",&b);
 
-    printf("\nNumber a:- %d",b);
-    printf("\nNumber b:- %d\n\n",a);
+    c = a;
+    a = b;
+    b = c;
+
+    printf("\nNumber a:- %d",a);
+    printf("\nNumber b:- %d\n\n",b);
 
     return 0;
 }
